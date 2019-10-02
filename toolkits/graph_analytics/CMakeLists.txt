@@ -25,3 +25,4 @@ add_graphlab_executable(partitioning partitioning.cpp)
 
 add_graphlab_executable(TSC TSC.cpp)
 requires_eigen(TSC)
+add_graphlab_executable(tunkrank tunkrank.cpp)
